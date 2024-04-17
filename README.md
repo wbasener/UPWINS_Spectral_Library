@@ -31,8 +31,9 @@ plt.ylabel('Reflectance')
 plt.grid(True)
 plt.title('Reflectance Spectra for a Baccharis_Halimif Leaf')
 plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left');
-![image](https://github.com/wbasener/UPWINS_Spectral_Library/assets/51686251/7ff6796c-26d4-4da8-b9fd-bc08def706ba)
 ```
+![image](https://github.com/wbasener/UPWINS_Spectral_Library/assets/51686251/b576560a-c1b5-43e6-9ca0-6a7e403bd97a)
+
 
 You can search the names of spectra for matches to a string to find spectra of different species or materials as follows.
 ```python
