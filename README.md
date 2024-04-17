@@ -1,5 +1,5 @@
 # UPWINS_Spectral_Library
-A spectral library for ASD spectra collected as part of the UVA UPWINS project.
+A spectral library for ASD spectra collected as part of the UVA UPWINS project. This library has around 1000 spectra, mostly from vegetation, collected with an ASD spectrometer.
 
 Install the spectral library into any local directory with the following command in a Jupyter Notebook:
 ```python 
