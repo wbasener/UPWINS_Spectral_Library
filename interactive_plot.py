@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import numpy as np
 
-def plot(wl, spectra_arr, class_names):
+def plot(wl, spectra_arr, class_names, yMax = 0.75):
     # Inputs:
     #   wl: numpy array of wavelengths
     #   spectra_arr: numpy array where each row is a spectrum, shape = num_spec x num_bands
@@ -51,7 +51,7 @@ def plot(wl, spectra_arr, class_names):
     fig.update_layout(
         title='Class Means',
         xaxis=dict(title='Wavelength (nm)'),
-        yaxis=dict(title='Reflectance', range=[0, 0.75]),
+        yaxis=dict(title='Reflectance', range=[0, yMax]),
         legend_title_text='Class',
         legend=dict(
             itemclick="toggle",
